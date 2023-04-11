@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- daisy UI CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Geometry Blog</title>
+  </head>
+  <body>
+    <header class="w-11/12 mx-auto text-center p-6">
+      <h1 class="text-3xl text-center">Assignment Question and Answer</h1>
+    </header>
+    <main class="w-11/12 mx-auto mt-4">
+      <div
+        tabindex="0"
+        class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box mb-4"
+      >
+        <div class="collapse-title text-xl font-medium">
+          What is DOM and what is the purpose of DOM?
+        </div>
+        <div class="collapse-content">
+          <p>
+            The Document Object Model (DOM) is an application programming
+            interface (API) for HTML and XML documents. It defines the logical
+            structure of documents and the way a document is accessed and
+            manipulated.
+          </p>
+          <p>
+            In website development, DOM stands for Document Object Model. It is
+            a programming interface that allows us to create, change, or remove
+            elements from a website document. DOM manipulation is when we use
+            JavaScript to add, remove, and modify elements of a website. It is
+            very common in web development.
+          </p>
+        </div>
+      </div>
+      <div
+        tabindex="1"
+        class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box mb-4"
+      >
+        <div class="collapse-title text-xl font-medium">
+          How will you select HTML elements using DOM? Name the DOM methods.
+        </div>
+        <div class="collapse-content">
+          <p>
+            There are 5 ways in which you can select elements in a DOM using
+            selectors. <br /><br />
+
+            1. getElementsByTagName() <br />
+            2. getElementsByClassName()<br />
+            3. getElementById()<br />
+            4. querySelector()<br />
+            5. querySelectorAll()
+          </p>
+        </div>
+      </div>
+      <div
+        tabindex="2"
+        class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box mb-4"
+      >
+        <div class="collapse-title text-xl font-medium">
+          What is event bubble?
+        </div>
+        <div class="collapse-content">
+          <p>
+            Event bubbling is a method of event propagation in the HTML DOM API
+            when an event is in an element inside another element, and both
+            elements have registered a handle to that event. It is a process
+            that starts with the element that triggered the event and then
+            bubbles up to the containing elements in the hierarchy. In event
+            bubbling, the event is first captured and handled by the innermost
+            element and then propagated to outer elements.
+          </p>
+        </div>
+      </div>
+      <div
+        tabindex="3"
+        class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box mb-4"
+      >
+        <div class="collapse-title text-xl font-medium">
+          What is a callback function and why will you use it?
+        </div>
+        <div class="collapse-content">
+          <p>
+            A callback function is a function that is passed as an argument to
+            another function and is intended to be called by that function at
+            some point in the future. The purpose of a callback function is to
+            allow for asynchronous execution of code.<br /><br />
+
+            There are several reasons why you might use a callback function:<br /><br />
+
+            Asynchronous operations: When you have an asynchronous operation,
+            such as reading a file or making an HTTP request, you might want to
+            specify a callback function to be called when the operation is
+            complete.<br />
+
+            Event handling: When you're handling events, such as a user clicking
+            a button or a timer expiring, you can use a callback function to
+            respond to the event.<br />
+
+            Customization: When you want to allow customization of a function's
+            behavior, you can pass a callback function as an argument to that
+            function. This allows users of the function to specify their own
+            behavior for certain parts of the function.<br /><br />
+
+            Overall, callback functions provide a way to write more flexible and
+            reusable code, allowing for a greater degree of customization and
+            control over the flow of execution in a program.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer class="mx-auto w-28"><button class="btn btn-primary"><a href="/index.html">Back to Home</a></button></footer>
+  </body>
+</html>
